@@ -1,0 +1,26 @@
+{
+  "presupuesto_maximo": 19000,
+  "registros_prueba": [
+    {"identificador": "R01", "llenado": 95, "tiempo": 8, "afluencia": 90},
+    {"identificador": "R02", "llenado": 65, "tiempo": 4, "afluencia": 40},
+    {"identificador": "R03", "llenado": 15, "tiempo": 1, "afluencia": 20},
+    {"identificador": "R04", "llenado": 75, "tiempo": 2, "afluencia": 95},
+    {"identificador": "R05", "llenado": 35, "tiempo": 9, "afluencia": 75}
+  ],
+  "acciones": [
+    {"codigo": "P1", "nombre": "Contenedores diferenciados", "costo": 5000, "beneficio": 14},
+    {"codigo": "P2", "nombre": "Sensores de llenado", "costo": 4200, "beneficio": 12},
+    {"codigo": "P3", "nombre": "Ruta de reciclaje", "costo": 6500, "beneficio": 19},
+    {"codigo": "P4", "nombre": "Campana educativa", "costo": 1500, "beneficio": 5},
+    {"codigo": "P5", "nombre": "Puntos limpios", "costo": 7200, "beneficio": 20},
+    {"codigo": "P6", "nombre": "Mantenimiento de flota", "costo": 3800, "beneficio": 11},
+    {"codigo": "P7", "nombre": "Sistema de incidencias", "costo": 3000, "beneficio": 9},
+    {"codigo": "P8", "nombre": "Equipos de proteccion", "costo": 2500, "beneficio": 7}
+  ],
+  "configuraciones_ag": [
+    {"nombre": "A", "poblacion": 20, "probabilidad_cruce": 0.70, "probabilidad_mutacion": 0.01, "generaciones": 50},
+    {"nombre": "B", "poblacion": 40, "probabilidad_cruce": 0.80, "probabilidad_mutacion": 0.05, "generaciones": 100},
+    {"nombre": "C", "poblacion": 60, "probabilidad_cruce": 0.90, "probabilidad_mutacion": 0.10, "generaciones": 150}
+  ],
+  "semillas": [11, 22, 33, 44, 55]
+}
